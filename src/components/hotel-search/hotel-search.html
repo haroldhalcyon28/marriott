@@ -1,0 +1,17 @@
+<ion-card>
+    <ion-card-header class="find-hotel" > <ion-icon name="ios-search-outline"></ion-icon> Find A Hotel</ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <input type="text" class="location-input" placeholder="City, country or airport code">
+      </ion-item>  
+      <ion-item>      
+        <input type="text" class="calendar-input" [(ngModel)]="pickedDate" (click)="openCalendar()" placeholder="Date of check in">
+      </ion-item>
+      
+      <button ion-button clear small color="twitter" icon-start> 
+          More search options 
+        </button>
+     <button ion-button  round  outline block medium color="twitter"> FIND </button>
+    </ion-card-content>
+
+  </ion-card>  

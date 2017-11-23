@@ -1,0 +1,25 @@
+<ion-content>
+
+  <ion-slides pager="true" (ionSlideDidChange)="changed()">
+
+    <ion-slide>
+      <span class="skip" (click)="skip()">
+        Skip
+      </span>
+      <h1>Page1</h1>   
+    </ion-slide>
+
+    <ion-slide>
+      <h1>Page2</h1>
+    </ion-slide>
+
+    <ion-slide>
+      <h1>Page3</h1>
+      <button ion-button color="light" (click)="navigateHome()">
+        Start Awesomeness
+      </button>
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

@@ -1,0 +1,77 @@
+<ion-content parallax-header no-bounce class="bg-modal transparent-header">
+
+    <ion-header>
+        <ion-navbar>
+        </ion-navbar>
+    </ion-header>
+
+    <div class="header-image"></div>
+    <div class="main-content" text-wrap text-center>
+        <h5>{{hotel.name}}</h5>
+        <p class="hotel-description">{{hotel.description}}</p>
+
+        <hr>
+
+        <!-- Map -->
+        <div class="map-pane">
+            <agm-map [latitude]="33.753746" [longitude]="-84.386330" [zoom]='17' streetViewControl="false">
+                <agm-marker [latitude]="33.753746" [longitude]="-84.386330" title="harold">
+                </agm-marker>
+            </agm-map>
+        </div>
+
+
+        <ion-list class="contact-list" no-lines>
+            <ion-item>
+                <ion-icon name="globe" color="primary" item-start></ion-icon>
+                <p>Website</p>
+                {{hotel.site}}
+            </ion-item>
+            <ion-item>
+                <ion-icon item-start name="call" color="danger"></ion-icon>
+                <p>Telephone</p>
+                {{hotel.phone}}
+            </ion-item>
+
+        </ion-list>
+
+        <hr>
+
+
+
+    </div>
+
+    <ion-grid>
+        <ion-row text-center class="hotel-main-icons">
+            <ion-col col-3>
+                <ion-icon name="ios-images-outline"></ion-icon><br>
+                <span> Overview </span>
+            </ion-col>
+            <ion-col col-3>
+                <ion-icon name="ios-cafe-outline"></ion-icon><br>
+                <span>  Amenities </span>
+            </ion-col>
+            <ion-col col-3>
+                <ion-icon name="ios-car-outline"></ion-icon><br>
+                <span> Transportation </span>
+            </ion-col>
+            <ion-col col-3>
+                <ion-icon name="ios-pin-outline"></ion-icon><br>
+                <span>  Nearby </span>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <h2>haysaulsi</h2>
+    <h2>haysaulsi</h2>
+    <h2>haysaulsi</h2>
+    <h2>haysaulsi</h2>
+    <h2>haysaulsi</h2>
+    <h2>haysaulsi</h2>
+    <h2>haysaulsi</h2>
+    <h2>haysaulsi</h2>
+    <h2>haysaulsi</h2>
+    <h2>haysaulsi</h2>
+    <h2>haysaulsi</h2>
+
+</ion-content>
