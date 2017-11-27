@@ -12,7 +12,7 @@ export class HotelDetailPage {
   hotel = {
     name: 'Renaissance Atlanta Midtown Hotel',
     profileImage: 'assets/img/avatar/girl-avatar.png',
-    coverImage: 'assets/images/img4.jpg',
+    coverImage: 'assets/images/Renaissance_REN_LCVBR-large.jpg',
     occupation: 'Designer',
     location: '866 W. Peachtree Street, NW Atlanta, Georgia 30308',
     description: 'The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.',
